@@ -74,11 +74,11 @@
             android:layout_height="56dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/coner"
-            android:drawableLeft="@drawable/lock"
-            android:drawableRight="@drawable/eye"
+            android:drawableLeft="@drawable/person"
             android:drawablePadding="15dp"
-            android:hint="Password"
+            android:hint="Nguyễn Văn A"
             android:inputType="text"
+            android:textStyle="bold"
             android:paddingLeft="16dp"
             android:paddingRight="16dp" />
 
@@ -88,11 +88,11 @@
             android:layout_height="56dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/coner"
-            android:drawableLeft="@drawable/lock"
-            android:drawableRight="@drawable/eye"
+            android:drawableLeft="@drawable/ic_email"
             android:drawablePadding="15dp"
-            android:hint="Confirm password"
+            android:hint="19522172@gm.uit.edu.vn"
             android:inputType="text"
+            android:textStyle="bold"
             android:paddingLeft="16dp"
             android:paddingRight="16dp" />
 
