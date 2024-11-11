@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Icon -->
+
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/email"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@color/white"
+        android:layout_marginBottom="12dp" />
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/password_icon"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp" />
+
+
+    <!-- Forgot Password -->
+
+</LinearLayout>
