@@ -12,15 +12,47 @@ public class setting extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
 
-        // Bắt sự kiện cho RelativeLayout chứa nút Logout
-        RelativeLayout logoutLayout = findViewById(R.id.imglogout); // Sử dụng ID của RelativeLayout.
+
+        RelativeLayout profileLayout = findViewById(R.id.btnProfile);
+        RelativeLayout logoutLayout = findViewById(R.id.imglogout2);
+        RelativeLayout changePassword = findViewById(R.id.btnChange);
+
         logoutLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Chuyển sang LogoutActivity
-                Intent intent = new Intent(setting.this, logout.class);
+                handleLogout();
+            }
+        });
+        profileLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                handleProfile();
+            }
+        });
+
+        changePassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Chuyển sang màn hình Reset Password
+                Intent intent = new Intent(setting.this, reset_password1.class);
                 startActivity(intent);
             }
         });
+
     }
+
+    // Hàm để xử lý sự kiện logout
+    private void handleLogout() {
+        Intent intent = new Intent(setting.this, logout.class);
+        startActivity(intent);
+        finish();
+    }
+
+    // Hàm để xử lý sự kiện mở Profile
+    private void handleProfile() {
+        Intent intent = new Intent(setting.this, profile.class);
+        startActivity(intent);
+    }
+
+
 }
