@@ -9,7 +9,7 @@
         android:id="@+id/imageAo"
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:src="@drawable/img_2"/>
+        android:src="@drawable/statusbar"/>
     <ImageView
         android:layout_below="@+id/imageAo"
         android:id="@+id/check_mark_icon"
@@ -18,7 +18,7 @@
         android:layout_width="62dp"
         android:layout_height="62dp"
         android:layout_marginBottom="40dp"
-        android:src="@drawable/img" />
+        android:src="@drawable/successful" />
 
     <TextView
         android:id="@+id/tvSuccessful"
@@ -52,14 +52,13 @@
         android:layout_centerHorizontal="true"
         android:layout_width="327dp"
         android:layout_height="56dp"
-        android:background="@drawable/img_1"
+        android:background="@drawable/button"
         android:padding="15dp"
-        android:text="Back to login"
-        />
+        android:text="Back to login" />
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="34dp"
-        android:src="@drawable/img_3"
+        android:src="@drawable/navigation"
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true"/>
 
