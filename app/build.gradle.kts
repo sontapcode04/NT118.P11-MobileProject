@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.resetpass"
+    namespace = "com.example.mobileproject"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.resetpass"
+        applicationId = "com.example.mobileproject"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

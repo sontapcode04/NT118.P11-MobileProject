@@ -12,10 +12,12 @@
         android:layout_height="44dp"
         android:src="@drawable/statusbar" />
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/relative_changlanguagae"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="60dp"
         android:layout_below="@+id/imageAo3">
 
         <LinearLayout

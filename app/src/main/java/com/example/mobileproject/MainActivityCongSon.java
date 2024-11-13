@@ -1,9 +1,12 @@
-package com.example.resetpass;
+package com.example.mobileproject;
 
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivityCongSon extends AppCompatActivity {
 
@@ -11,7 +14,6 @@ public class MainActivityCongSon extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.reset_password_2);
-
+        setContentView(R.layout.welcome_screen);
     }
 }

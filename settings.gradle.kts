@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ResetPass"
+rootProject.name = "MobileProject"
 include(":app")
+ 
