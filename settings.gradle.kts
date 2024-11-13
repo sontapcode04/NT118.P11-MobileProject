@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "setpassword"
+
+rootProject.name = "My Application"
 include(":app")
- 
+
