@@ -1,8 +1,9 @@
-package com.example.setpassword;
+package com.example.mobileproject;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -19,14 +20,16 @@ public class setpassword extends AppCompatActivity {
         setContentView(R.layout.activity_setpassword);
 
         context = this;
-        Button btnNext = findViewById(R.id.resetButton);
+        Button btnNext = findViewById(R.id.btnupdate);
 
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(setpassword.this, setting.class);
+                Log.d("DEBUG", "Button clicked!");
+                Intent intent = new Intent(setpassword.this, profile.class);
                 startActivity(intent);
             }
         });
+
     }
 }

@@ -1,4 +1,4 @@
-package com.example.setpassword;
+package com.example.mobileproject;
 
 import org.junit.Test;
 

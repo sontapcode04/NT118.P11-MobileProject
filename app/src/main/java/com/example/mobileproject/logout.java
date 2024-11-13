@@ -1,6 +1,7 @@
-package com.example.setpassword;
+package com.example.mobileproject;
 
 import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class logout extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.setpassword;
+package com.example.mobileproject;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,13 +10,13 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class caotien extends AppCompatActivity {
     Context context;
     ImageView back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_caotien);
         context = this;
         Button btnNext = findViewById(R.id.btnNext);
         back=findViewById(R.id.back);
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, setpassword.class);
+                Intent intent = new Intent(caotien.this, setting.class);
                 startActivity(intent);
 
             }

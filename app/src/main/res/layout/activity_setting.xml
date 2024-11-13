@@ -92,6 +92,7 @@
         </TextView>
 
         <RelativeLayout
+            android:id="@+id/btnProfile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
@@ -112,7 +113,9 @@
                 android:layout_marginEnd="217dp"
                 android:layout_toStartOf="@+id/imgaccount1"
                 android:text="Profile"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold">
+
+            </TextView>
 
             <ImageView
                 android:id="@+id/imgaccount1"
@@ -120,10 +123,13 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/arrow_right_24"></ImageView>
+                android:src="@drawable/arrow_right_24">
+
+            </ImageView>
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/btnChange"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
@@ -154,7 +160,9 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/arrow_right_24"></ImageView>
+                android:src="@drawable/arrow_right_24">
+
+            </ImageView>
         </RelativeLayout>
 
         <RelativeLayout
@@ -319,10 +327,10 @@
         android:layout_width="match_parent"
         android:layout_height="138dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="2dp"
-        app:constrainEnd_toEndOf="parent"
-        app:layout_constrainStart_toStarOf="parent"
-        app:layout_constrainBottom_toBottomOf="parent">
+        android:layout_marginBottom="2dp">
+<!--        app:constrainEnd_toEndOf="parent"-->
+<!--        app:layout_constrainStart_toStartOf="parent"-->
+<!--        app:layout_constrainBottom_toBottomOf="parent">-->
 
 
         <LinearLayout
